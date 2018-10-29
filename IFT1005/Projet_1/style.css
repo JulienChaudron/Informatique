@@ -1,0 +1,32 @@
+body{
+	background-color:#86898A;
+	margin-left:48px;
+}
+
+h1{
+	margin-left:auto;
+	margin-right:auto;
+	width:30%;
+}
+h2{margin-top:10px;
+}
+nav{
+	margin-left:auto;
+	margin-right:auto;
+	width:60%;
+}
+.taille{
+	width:20%;
+	border:5px solid black;
+	border-style:inset;
+	box-shadow:1px 1px 1px 1px;
+	margin-right:50px;
+	margin-top:	
+}
+a{
+	padding-left:80px;
+	color:white;
+	font-style:bold;
+}
+
+	
