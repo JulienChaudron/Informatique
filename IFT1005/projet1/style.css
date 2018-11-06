@@ -32,11 +32,9 @@ nav a{
 
 header{
 	background-color:#DDDDDD;
-	margin-bottom:1em;
-
-	background-repeat: no-repeat;
-	background-position:right;
-	background-size: contain;
+	margin-left:50px;
+	margin-right:50px;
+	margin-top:0px;
 }
 
 .taille{
