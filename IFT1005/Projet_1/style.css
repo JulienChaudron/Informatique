@@ -25,11 +25,22 @@ nav{
 	margin-bottom:30px;
 }
 
-nav > a{
+nav a{
 	padding-left:80px;
 	color:black;
 	font-style:bold;
 }
+
+header{
+	background-color:#BBBBBB;
+	margin-bottom:1em;
+	background-image:url(images/Ponsonbys2.jpg);
+	background-repeat: no-repeat;
+	background-position:right;
+	background-size: contain;
+}
+	
+
 
 .taille{
 	
