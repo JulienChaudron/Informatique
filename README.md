@@ -1,2 +1,0 @@
-# Informatique
-Projet du bach
