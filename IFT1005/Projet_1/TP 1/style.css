@@ -1,7 +1,8 @@
 body{
-	background-color:#86898A;
+	background-color:#DDDDDD;
 	margin-left:60px;
 	font-family:arial;
+	color:black;
 	
 }
 
@@ -24,9 +25,9 @@ nav{
 	margin-bottom:30px;
 }
 
-a{
+nav > a{
 	padding-left:80px;
-	color:white;
+	color:black;
 	font-style:bold;
 }
 
@@ -48,6 +49,13 @@ a{
 	border:5px solid black;
 	border-style:inset;
 	box-shadow:1px 1px 1px 1px;
-	margin-top:15px;
+	margin-top:30px;
 	margin-right:10px;
+}
+footer{
+	font-style:italic;
+	font-size:0.5em;
+	margin-top:50px;
+	padding-bottom:0.1em;
+	text-align:center;
 }
