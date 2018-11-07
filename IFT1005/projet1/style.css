@@ -19,6 +19,7 @@ h2{
 	text-align:center;
 }
 
+
 nav{
 	margin-left:auto;
 	margin-right:auto;
@@ -42,8 +43,8 @@ header{
 }
 
 .container{
-	margin-left:5%;
-	margin-right:5%;
+	margin-left:3%;
+	margin-right:2%;
 }
 
 .description{
