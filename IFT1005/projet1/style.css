@@ -94,3 +94,10 @@ footer{
 dt{
 	text-decoration:underline;
 	font-weight:bold;
+	margin-top:2%;
+}
+.container{
+	margin:auto;
+	width:80%;
+}
+	
