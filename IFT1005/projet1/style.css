@@ -1,6 +1,6 @@
 body{
 	background-color:#DDDDDD;
-	margin-left:60px;
+	margin-left:30px;
 	font-family:arial;
 	color:black;
 }
@@ -14,7 +14,9 @@ h1{
 	margin-bottom:30px;
 }
 
-h2{margin-top:10px;
+h2{
+	margin-top:10px;
+	text-align:center;
 }
 
 nav{
@@ -32,13 +34,24 @@ nav a{
 
 header{
 	background-color:#DDDDDD;
-	margin-left:10px;
-	margin-right:10px;
-	margin-top:0px;
+	background-image:url(images/ponsonbys.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:contain;
+	height:10em;
+}
+
+.container{
+	margin-left:5%;
+	margin-right:5%;
+}
+
+.description{
+	margin-left:auto;
+	margin-right:20%;
 }
 
 .taille{
-	
 	border:5px solid black;
 	border-style:inset;
 	box-shadow:1px 1px 1px 1px;
@@ -66,6 +79,7 @@ footer{
 	padding-bottom:0.1em;
 	text-align:center;
 }
+
 .montre{
 	border:5px solid black;
 	border-style:inset;
