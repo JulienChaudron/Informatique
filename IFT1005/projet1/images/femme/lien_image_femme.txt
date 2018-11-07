@@ -3,10 +3,18 @@ robe_longue_rouge.jpg			-->	https://www.persun.fr/chic-robe-amarante-a-col-monta
 robe_longue_bleu.jpg			-->	http://location-robe-soire.e-monsite.com/album/robes-de-soiree-a-louer/
 robe_longue_bleu.jpg			-->	http://www.adventech.fr/robe-de-soire-vetement-femme-robe-de-soiree-762/
 
-manteau_long_beige.jpg			-->	https://www.aliexpress.com/item/Womens-Winter-Jackets-And-Coats-Winter-Jacket-Women-Coat-Manteau-Femme-Goose-Down-Coats-Casaco-Feminino/32818001113.html
-manteau_court_noir_fourrure.jpg	-->	https://www.amazon.fr/manteaux-femme/b?ie=UTF8&node=464683031
-manteau_long_rose.jpg			-->	https://www.simons.ca/fr/vetements-femme/manteaux--6685
-manteau_court_beige.jpg			-->	https://www.pinterest.fr/pin/70368812905198857/
+manteau_court_blanc_fourrure.jpg-->	https://www.zara.com/ca/en/woman-jackets-l1114.html?v1=1074507	
+manteau_court_blanc_polar.jpg   -->	https://www.zara.com/ca/en/woman-jackets-l1114.html?v1=1074507	
+manteau_court_serpent_rouge.jpg -->	https://www.zara.com/ca/en/woman-jackets-l1114.html?v1=1074507	
+manteau_long_vert.jpg           -->	https://www.zara.com/ca/en/woman-jackets-l1114.html?v1=1074507	
+									
+talon_aiguille_noir_suede.jpg	-->	https://www.zara.com/ca/en/woman-shoes-l1251.html?v1=1074625
+talon_aiguille_rouge.jpg		-->	https://www.zara.com/ca/en/woman-shoes-l1251.html?v1=1074625
+talon_aiguille_turquoise.jpg	-->	https://www.zara.com/ca/en/woman-shoes-l1251.html?v1=1074625
+talon_bas_vin.jpg				-->	https://www.zara.com/ca/en/woman-shoes-l1251.html?v1=1074625
 
-
+sac_bleu_beige_blanc_petit.jpg	-->	https://www.zara.com/ca/en/woman-bags-l1024.html?v1=1074708
+sac_crocodile_brun.jpg			-->	https://www.zara.com/ca/en/woman-bags-l1024.html?v1=1074708
+sac_crocodile_rouge.jpg			-->	https://www.zara.com/ca/en/woman-bags-l1024.html?v1=1074708
+sac_demi_cercle_orange.jpg		-->	https://www.zara.com/ca/en/woman-bags-l1024.html?v1=1074708
 
