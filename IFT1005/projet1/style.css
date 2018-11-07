@@ -17,6 +17,7 @@ h1{
 h2{
 	margin-top:10px;
 	text-align:center;
+	font-family:"Times New Roman";
 }
 
 
@@ -46,7 +47,10 @@ header{
 	margin-left:30%;
 	margin-right:30%;
 	text-align:center;
-}.description{
+	font-size:110%;
+}
+
+.description{
 	margin-left:auto;
 	margin-right:20%;
 }
@@ -60,8 +64,6 @@ header{
 	margin-right:30px;
 	margin-left:0px;
 	margin-bottom:5px;
-	
-	
 }
 
 .chaussure{
@@ -91,11 +93,13 @@ footer{
 	margin-left:20px;
 	margin-bottom:5px;
 }
+
 dt{
 	text-decoration:underline;
 	font-weight:bold;
 	margin-top:2%;
 }
+
 .container{
 	margin:auto;
 	width:80%;
