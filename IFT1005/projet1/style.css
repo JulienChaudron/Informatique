@@ -42,9 +42,10 @@ header{
 	height:10em;
 }
 
-.container{
-	margin-left:3%;
-	margin-right:2%;
+.propos{
+	margin-left:30%;
+	margin-right:30%;
+	text-align:center;
 }
 
 .description{
