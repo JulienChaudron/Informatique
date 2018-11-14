@@ -30,14 +30,14 @@
 						<h3>Contactez-nous</h3>
 						
 						<form method="post" name="reservation" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
-							Prénom:<input type="text" name="prenom" id="prenom"><br>
-							Nom:<input type="text" name="nom" id=><br>
-							Email:<input type="text" name="email" id=><br>
-							Téléphone:<input type="text" name="telephone" id=><br>
-							Date d'arrivé:<input type="text" name="arrive"id=><br>
-							Nuits:<input type="text" name="nuit"id=><br>
-							Commentaires:<input type="text" name="commentaire" id=><br>
-							<input type="submit">
+							* Prénom:<input type="text" required="*" name="prenom" id="prenom"><br>
+							* Nom:<input type="text" required name="nom" id="nom"><br>
+							* Email:<input type="text" required name="email" id="email"><br>
+							Téléphone:<input type="text" name="telephone" id="telephone"><br>
+							Date d'arrivé:<input type="text" placeholder="yyyy - mm - dd" name="arrive"id="arrive"><br>
+							Nuits:<input type="text" name="nuit"id="nuit"><br>
+							* Commentaires:<input type="textarea" required name="commentaire" id="commentaire"><br>
+							<input type="submit" value="Soumettre">
 							
 						</form>
 					</main>
