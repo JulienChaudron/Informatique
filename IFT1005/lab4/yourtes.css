@@ -63,7 +63,7 @@ nav a{
 }
 
 nav a:link {
-	color: #aa00aa; 
+	color: #dA0000; 
 }
 
 nav a:visited {
@@ -75,7 +75,6 @@ nav a:hover {
 }
 
 #allRight{
-	display:inline-box;
 	margin-left:155px;
 	background-color:#FFFFFF;
 }
