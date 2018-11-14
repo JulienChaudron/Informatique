@@ -16,6 +16,10 @@ h2{
 	color:#3399CC;
 	font-family:Georgia, serif;
 }
+
+h3{
+	color:#000033;
+}
 	
 dt{
 	color:#000033;
@@ -101,4 +105,32 @@ footer{
 	font-style:italic;
 	font-size:0.5em;
 	padding-bottom: 0.1em;
+}
+
+table, th, td{
+	border: 1px solid #3BBFD8;
+	border-collapse: collapse;
+	text-align:center;
+}
+
+table{
+	width:85%;
+	margin:auto;
+}
+
+th{
+	font-weight:bord;
+	text-align:center;
+}
+
+tr:nth-of-type(even){
+	background-color:#d2f3FF;
+}
+
+tr:nth-of-type(odd){
+	background-color:white;
+}
+
+td:nth-of-type(2){
+	text-align:left;
 }
