@@ -94,6 +94,11 @@ nav a:hover {
 main{
 	margin:1em;
 }
+
+#res{
+	margin-top:0px;
+	padding-top:15px;
+}
 	
 span{
 	color:#000033;
@@ -124,7 +129,7 @@ th{
 }
 
 tr:nth-of-type(even){
-	background-color:#d2f3FF;
+	background-color:#F9FDFF;
 }
 
 tr:nth-of-type(odd){
@@ -148,12 +153,14 @@ label {
 	margin-top: 15px;
 }
 
-
 input, textarea { 
 	display: block;
 	margin-top: 15px;
 }
 
+input:first-of-type, label:first-of-type{
+	margin-top:0px;
+}
 #mySubmit{
 	margin-left:145px;
 }
