@@ -35,17 +35,17 @@
 						</p>
 						
 						<form method="post" name="reservation" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
-							<label for="monPrenom">* Prénom:</label>
-							<input type="text" required name="monPrenom" id="monPrenom">
+							<label for="myName">* Prénom:</label>
+							<input type="text" required name="myName" id="myName">
 							
-							<label for="monNom">* Nom:</label>
-							<input type="text" required name="monNom" id="monNom">
+							<label for="myLastName">* Nom:</label>
+							<input type="text" required name="myLastName" id="myLastName">
 							
 							<label for="myEmail">* Email:</label>
 							<input type="text" required name="myEmail" id="myEmail">
 							
 							<label for="myPhone">Téléphone:</label>
-							<input type="tel" name="myPhone" id="myPhone">
+							<input type="tel" pattern="[0-9]{10}" name="myPhone" id="myPhone">
 							
 							<label for="arrive">Date d'arrivé:</label>
 							<input type="date" name="arrive" id="arrive">
