@@ -1,0 +1,24 @@
+header{
+	background-color:#FEB92B;
+	background-image:url(images/logo3.jpg);
+	background-repeat:no-repeat;
+	background-position:left;
+	background-size:contain;
+	height:10em;
+}
+
+nav{
+	margin-left:12%;
+	padding-top:4em;
+}
+
+nav a{
+	margin-left:2em;
+	font-size:2em;
+	text-decoration:none;
+	color:black;
+}
+.image{
+	width:100%;
+	height:30em;
+	
