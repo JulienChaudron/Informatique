@@ -1,16 +1,19 @@
 /* Julien Chaudron 20141550 */
 /* Wassim Mahieddine 20142332 */
 
+#container{
+	font-family:Verdana, Arial, sans-serif;
+	background-color:white;
+}
+
 body{
-	background-image: url(images/background.jpg);
-	padding-bottom:100px;
+	margin:0px;
 }
 
 h1{
 	font-family:Georgia, serif;
-	margin-left: 2%;
-	margin-bottom: 0%;
 	padding:2%;
+	margin: 0%;
 }
 
 h2{
@@ -21,21 +24,14 @@ h2{
 h3{
 	color:#000033;
 }
-	
+
+main{
+	margin:1em;
+}
+
 dt{
 	color:#000033;
 	font-weight:bold;
-}
-
-#container{
-	margin:auto;
-	width:80%;
-	color:#666666; 
-	font-family:Verdana, Arial, sans-serif;
-	background-color:white;
-	box-shadow:5px 5px 5px;
-	min-width: 960px;
-	max-width:1200px;
 }
 
 header{
@@ -47,18 +43,14 @@ header{
 	background-size: contain;	
 }
 
-
 nav{
-	float:left;
 	background-color:#90C7E3;
-	width:150px;
-	height:100%;
 }
 
-nav ul { 
+nav ul{ 
+	margin:0px;
 	list-style-type: none;
-	margin-left: 0;
-	padding: 10px; 
+	padding:10px;
 }
 
 nav a{
@@ -67,35 +59,22 @@ nav a{
 	font-weight: bold;
 }
 
-nav a:link {
+nav a:link{
 	color: #dA0000; 
 }
 
-nav a:visited {
+nav a:visited{
 	color: black;
 }
 
-nav a:hover { 
+nav a:hover{
 	color: white; 
 }
 
-#allRight{
-	margin-left:155px;
-	background-color:#FFFFFF;
-}
-
-#hop{
-	background-color:#90C7E3;
-}
-
 .imageDescriptif{
-	 width: 100%;
+	width: 100%;
 }
-
-main{
-	margin:1em;
-}
-
+	
 .res{
 	margin-top:0px;
 	padding-top:12px;
@@ -142,11 +121,11 @@ td:nth-of-type(2){
 }
 
 form{
-	border-style:solid;	
+	border-style:solid;
 	border-color:white;
 }
 
-label {
+label{
 	float: left; 
 	width: 150px; 
 	text-align: left;
@@ -154,7 +133,7 @@ label {
 	margin-top: 15px;
 }
 
-input, textarea { 
+input, textarea{ 
 	display: block;
 	margin-top: 15px;
 }
@@ -162,23 +141,83 @@ input, textarea {
 input:first-of-type, label:first-of-type{
 	margin-top:0px;
 }
+
 #mySubmit{
 	margin-left:145px;
 }
 
-@media only screen and (max-width: 1024px) {
-    #container{	width:100%;
-				margin:none;
+@media only all and (min-width:1025px){
+	body{
+		background-image: url(images/background.jpg);
+		margin-bottom:5%;
+	}
+	
+	h1{
+		margin-top:2%;
+	}
+	
+	#container{
+		margin:auto;
+		width:80%;
+		color:#666666; 
+		box-shadow:5px 5px 5px;
+	}
+	
+	nav{
+		float:left;
+	}
+	
+	nav ul{ 
+		margin-top:15%;
+	}
+		
+	#allRight{
+		margin-left:155px;
+		background-color:#FFFFFF;
+	}
+	
+	#hop{
+		background-color:#90C7E3;
+	}
 }
-	body{padding-bottom:0px;
+
+@media only all and (min-width:769px) and (max-width:1024px){
+	nav li{
+		display:inline-block;
+	}
 }
-	nav{float:none;
+
+@media only all and (max-width:768px){
+	main{
+		margin-left:0.5em;
+	}
+	
+	nav ul{
+		padding:0px;
 	}
 
+	nav a{
+		font-size:150%;
+		padding-left:5px;
+	}
 	
+	nav li{
+		border-bottom:1px solid;
+	}
+
+	img{
+		display:none;
+	}
 }
 
-@media only screen and (max-width: 768px) {
-	header{background-color:blue; }
-}
+
+
+
+
+
+
+
+
+
+
 
