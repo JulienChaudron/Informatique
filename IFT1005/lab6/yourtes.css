@@ -3,6 +3,7 @@
 
 body{
 	background-image: url(images/background.jpg);
+	padding-bottom:100px;
 }
 
 h1{
@@ -141,7 +142,7 @@ td:nth-of-type(2){
 }
 
 form{
-	border-style:solid;
+	border-style:solid;	
 	border-color:white;
 }
 
@@ -164,3 +165,20 @@ input:first-of-type, label:first-of-type{
 #mySubmit{
 	margin-left:145px;
 }
+
+@media only screen and (max-width: 1024px) {
+    #container{	width:100%;
+				margin:none;
+}
+	body{padding-bottom:0px;
+}
+	nav{float:none;
+	}
+
+	
+}
+
+@media only screen and (max-width: 768px) {
+	header{background-color:blue; }
+}
+
