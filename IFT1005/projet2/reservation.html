@@ -18,3 +18,31 @@
 			</nav>
 			
 		</header>	
+		
+		<form method="post" name="reservation" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+			<div id="formalign">
+				<label for="myLastName">* Nom</label>
+				<input type="text" required name="myLastName" id="myLastName" >
+				
+				<label for="myEmail">* Email</label>
+				<input type="text" required name="myEmail" id="myEmail">
+	
+				<label for="myPhone">*Téléphone:</label>
+				<input type="tel" pattern="[0-9]{10}" name="myPhone" id="myPhone">
+				
+				<label for="date">Date</label>
+				<input type="date" name="date" id="date">
+				
+				<label for="heure">Heure</label>
+				<input type="time" name="heure" id="heure">
+				
+				<label for="personnes">Nombre de personnes</label>
+				<input type="number" name="personnes" id="personnes">
+				
+				<label for="myComments">Commentaires:</label>
+				<textarea name="myComments" id="myComments" rows="2" cols="20"></textarea>
+				
+				<input id="btnsubmit" type="submit" value="Soumettre">
+			</div>
+		</form>
+		
