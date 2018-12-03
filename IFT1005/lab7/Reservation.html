@@ -7,6 +7,7 @@
 		<title>Santa Maria</title>
 		<meta charset="utf-8">
 		<link rel="stylesheet" href="yourtes.css">
+		<script src="dateDeModification.js"></script>
 	</head>
 	<body>
 		<div id="container">
@@ -34,7 +35,9 @@
 							d'un astérisque (*).
 						</p>
 						
-						<form method="post" name="reservation" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php">
+						<form method="post" name="reservation" action="http://www-etud.iro.umontreal.ca/~chartral/ift1005/form_print.php"
+							onsubmit="return validateForm();">
+							
 							<label for="myName">* Prénom:</label>
 							<input type="text" required name="myName" id="myName">
 							
