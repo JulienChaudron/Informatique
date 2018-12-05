@@ -1,1 +1,1 @@
-document.write(document.lastModified);
+document.write("Cette page a été modifiée pour la dernière fois le" + document.lastModified);
