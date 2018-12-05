@@ -1,17 +1,19 @@
-header{
-	background-color:#D9401A;
-	background-image:url(images/logo8.jpg);
-	background-repeat:no-repeat;
-	background-position:left;
-	background-size:contain;
-	height:10em;
-	border-radius:3em;
+nav div{
+	padding-top:4em;
+}
 
+nav img{
+	border-radius:3em 0 0 3em;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	float:left;
 }
 
 nav{
-	margin-left:40%;
-	padding-top:4em;
+	background-color:#D9401A;
+	height:10em;
+	border-radius:3em;
 }
 
 nav a{
@@ -55,14 +57,61 @@ dt{
 	font-weight:bold;
 }
 
+h2{
+	color:#E5BA57;
+	text-shadow: 2px 2px #737568;
+}
+
 h3{
 	font-size:1.5em;
 	font-weight:bold;
 	margin:0px;
 	padding:0px;
 	margin-left:10%;
+	color:#E5BA57;
+	text-shadow: 2px 2px #737568;
 }
 
+table, td, th{
+	vertical-align:top;
+}
+
+th:first-of-type, td:first-of-type{
+	width:5em;
+}
+
+th:last-of-type, td:last-of-type{
+	width:2em;
+	text-align:center;
+}
+
+td p{
+	margin:0px;
+}
+
+td img{
+	display:inline-block;
+	float:left;
+	margin:0px;
+	padding:0 1em 0 0;
+	width:15em;
+	height:auto;
+}
+
+table, th, td{
+	border: 3px solid #E5BA57;
+	border-collapse: collapse;
+	text-align:left;
+}
+
+th, td, th{
+	padding:1px 5px 1px 5px;
+}
+
+th{
+	color:#E5BA57
+}
+	
 @media only all and (min-width:1025px){
 	#LeftZone{
 		float:left;
@@ -106,25 +155,6 @@ h3{
 	#midBoxMenu{
 		margin:0 5% 0 5%;
 	}
-	
-	h3{
-		color:#E5BA57;
-		text-shadow: 2px 2px #737568;
-	}	
-	
-	table, th, td{
-		border: 3px solid #E5BA57;
-		border-collapse: collapse;
-		text-align:left;
-	}
-
-	th, td, th{
-		padding:1px 5px 1px 5px;
-	}
-	th{
-		color:#E5BA57
-	}
-	
 	table{
 		margin:auto;
 		width:80%;
@@ -165,15 +195,29 @@ h3{
 }
 
 @media only all and (max-width:768px){
+	nav img{
+		border-radius:0px;
+	}
+
+	nav a{
+		display:block;
+	}
+	
+	nav div{
+		padding-top:1em;
+	}
+	
 	body{
 		background-image:none;
 		background-color:#D9401A;
 	}
+	
 	.fancy{
 		color:white;
 		box-sizing: border-box;
 		border-style:solid;
 	}
+	
 	dd, dt{
 		padding-left:10%;
 	}
@@ -192,6 +236,10 @@ h3{
 	
 	dd{
 		margin: 0 0 0 110px;        
+	}
+	
+	td img{
+		display:none;
 	}
 }
 
