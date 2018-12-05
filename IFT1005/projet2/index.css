@@ -55,11 +55,17 @@ img{
 
 dt{
 	font-weight:bold;
+	color:#E5BA57;
+	text-shadow: 1px 1px black;
+}
+
+dd{
+	color:#E5BA57;
 }
 
 h2{
-	color:#E5BA57;
-	text-shadow: 2px 2px #737568;
+	color:#737568;
+	text-shadow: 2px 1px #E5BA57;
 }
 
 h3{
@@ -69,7 +75,7 @@ h3{
 	padding:0px;
 	margin-left:10%;
 	color:#E5BA57;
-	text-shadow: 2px 2px #737568;
+	text-shadow: 2px 1px #737568;
 }
 
 table, td, th{
