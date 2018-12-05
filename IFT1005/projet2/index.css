@@ -105,19 +105,24 @@ h3{
 	
 	#midBoxMenu{
 		margin:0 5% 0 5%;
-		
-		box-sizing: border-box;
-		border-style:solid;
 	}
 	
+	h3{
+		color:#E5BA57;
+		text-shadow: 2px 2px #737568;
+	}	
+	
 	table, th, td{
-		border: 5px solid white;
+		border: 3px solid #E5BA57;
 		border-collapse: collapse;
 		text-align:left;
 	}
 
 	th, td, th{
 		padding:1px 5px 1px 5px;
+	}
+	th{
+		color:#E5BA57
 	}
 	
 	table{
@@ -190,7 +195,7 @@ h3{
 	}
 }
 
-
+/* #737568 */
 
 
 
