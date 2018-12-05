@@ -102,6 +102,28 @@ h3{
 	dd{
 		padding-left:10%;
 	}
+	
+	#midBoxMenu{
+		margin:0 5% 0 5%;
+		
+		box-sizing: border-box;
+		border-style:solid;
+	}
+	
+	table, th, td{
+		border: 5px solid white;
+		border-collapse: collapse;
+		text-align:left;
+	}
+
+	th, td, th{
+		padding:1px 5px 1px 5px;
+	}
+	
+	table{
+		margin:auto;
+		width:80%;
+	}
 }
 
 @media only all and (min-width:769px) and (max-width:1024px){
